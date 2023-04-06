@@ -4,14 +4,30 @@
     <meta charset="UTF-8"/>
     
     <title>Vitaliy Solomenko</title>
+
+    
+    <!-- <style> - можно использовать css в html-->
+        body {
+            background: aqua;
+        }
+
+        h1 {
+            color: blue;
+        }
+    /* </style> */
+
 </head>
 
 
 <body>
-    
+   
     <table cellspacing="15">
+        <!-- cellspacing="15" -
+             расстояние текста от фото
+            (как в таблице блоки) -->
+        
 <tr>
-
+    
     <td>
       <img src="img\avatar.jpg.jpg"width="180" alt="">
     </td>
@@ -24,7 +40,8 @@
 
     </table>
 
-    <!-- alt="this photo" если фото не откр. можно написать текст -->
+    <!-- alt="this photo" если фото не откр. можно написать текст
+    alt - от сл алт текст -->
 
   <!-- <em></em> - наклонный текст -->
 
@@ -36,14 +53,18 @@
 
 <h2>my internet</h2>
 
+
+<img src="https://indianapublicmedia.org
+/large-images/amos-images/earth1.jpg" width="180">
+
 <ul type="square" >
 
     <!-- type - вид номерации -->
 
     <li><a href="https://music.youtube.com/playlist?list=RDCLAK5uy_
-        lZdccn1mKkuOR9dCZ6VzV1liRzgxyPxx8" target="_blank">musik</a> </li>
+        lZdccn1mKkuOR9dCZ6VzV1liRzgxyPxx8" target="_blank">пробник</a> </li>
     <li><a target="_blank" href="https://music.youtube.com/playlist?list=RDCLAK5uy_
-        mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI">musik</a> </li>
+        mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI">пробник1</a> </li>
    
 </ul>
 <!-- target="_blank" - откр в новом окне -->
@@ -51,19 +72,28 @@
 <hr width="900" color="blue">
 
 
-<h2>My hobby</h2>
+<h2>мои хобби</h2>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+ANd9GcQdCbHC37mxxnpKGbWEcDS__L9HuAFDVfc-Kg&usqp=CAU" width="180">
 
 <ol type="I" >
-    <li>sport</li>
-    <li>world</li>
-    <li>auto moto</li>
+    <li>спорт</li>
+    <li>путешествия</li>
+    <li>авто мото</li>
     <li>it</li>
 </ol>
 
 <hr width="900" color="green">
 
 
-<h2>experience work</h2>
+<h2>опыт работы</h2>
+
+
+<img src="https://zi.ua/upload/iblock
+/1c3/1c3e25bc1065771f99b1b66fb000c528.jpg" width="180">
+
+
 
 <table border="2">
     <!-- border="2" - таблица -->
@@ -71,16 +101,32 @@
         <th>компания</th>
         <th>должность</th>
         <th>год</th>
+        <th>компания</th>
+       
     </tr>
+
     <tr>
         <td>fitness meneger</td>
         <td>gum</td>
         <td>2016-2017</td>
+        
+        <td>gum</td>
+        
+
     </tr>
     <tr>
         <td>fitness instruction</td>
         <td>fitness life</td>
         <td>2017-2020</td>
+
+        <td> fitness</td>
+    </tr>
+
+    <tr>
+        <td>fitness instruction</td>
+        <td>fitness life</td>
+        <td>2017-2020</td>
+        <td> fitness live</td>
     </tr>
     
 
@@ -104,11 +150,11 @@
         </li>
         <li><a href="https://devdocs.io/" target="_blank" > job1 </a></li>
         <li> <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&list=PLqKQF2ojwm
-            3l6OE4-tjLBhUNtJXLebHXP&index=13" target="_blank"> jobvideo</a> </li>
+            3l6OE4-tjLBhUNtJXLebHXP&index=13" target="_blank"> html</a> </li>
 
-            <li> <a href="https://github.com" target="_blank"> jobvideo1</a> </li>
+            <li> <a href="https://github.com" target="_blank"> github</a> </li>
 
-            <li> <a href="https://github.com" target="_blank"> jobvideo1</a> </li>
+            <li> <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/em" target="_blank"> mdn </a> </li>
     </li>
 
     
@@ -119,6 +165,8 @@
 <h2>связатся со мной</h2>
 
 <form action="">
+
+    <!-- <form>/ форма для отправки или связи  -->
     <!-- action="" - по какому пути будет
     обрабатыватся  связка типа  -->
 
@@ -126,11 +174,22 @@
 <input type="text" id="name"
  placeholder="введите ваше имя">
 
+ <label for=""></label>
+
+<br>
+
+<label for="month "></label>
+ <input type="month">
+
+ <input type="number">
+ 
+
 <br>
     <label for="email">Ваш email:</label>
     <input type="email" id="email" 
     placeholder="Введите email">
 
+    <!-- placeholder - подсказка в ячейке -->
     <br>
 
     <label for="text">Ваше сообщение:</label>
@@ -144,18 +203,50 @@
     <br>
 
     <input type="submit" value="связаться">
+    <input type="text" name="fnnf" id="">
 
 
     <!-- value="связаться" свой текст -->
     <!-- <input type="submit"> отправить -->
 <br>
-    <input type="submit" value="conection">
+    <input type="submit" value="отправить">
     <input type="password">
     <hr>
-    <input type="date">   
-    <input type="color">
-    <input type="checkbox">
+    <input type="date">  
+    
+    <br>
 
+    <input type="color" >
+    <input type="checkbox">
+    <input type="text">
+
+    <br>
+
+    <input type="image" alt="отправить" >
+
+    <br>
+
+    <input type="number">
+
+    <br>
+
+    <input type="radio">
+
+    <br>
+
+    <!-- checkbox - ячейка для галочки -->
+
+    <!-- <input - ячейка для ввода -->
+    <!-- type - что в окне> -->
+
+    <br>
+
+    <input type="submit" value="go to go">
+
+    <!-- type="submit" кнопка (типа отправить) -->
+    <br>
+    <input type="range">
+<input type="text" value="gogo">
 </form>
 
 
