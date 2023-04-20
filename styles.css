@@ -11,10 +11,21 @@ font-family: 'Times New Roman', Times, serif;
 .avatar {
 width: 150px;  
 border-radius: 28px;
-box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+box-shadow: -14px -14px 14px rgba(16, 27, 209, 1);
 }
 
 .earch {
-    width: 150px;
-    border-radius: 25px;
+   box-shadow: 11px -18px 14px 5px rgb(11, 126, 9);
+    border-radius: 60px;
+    
+}
+
+.hoby {
+    box-shadow: 4px 4px 14px;
+    border-radius: 20%;
+}
+
+.note {
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
