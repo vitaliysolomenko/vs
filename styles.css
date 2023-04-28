@@ -9,7 +9,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .avatar {
-width: 150px;  
+width: 100px;  
 border-radius: 28px;
 box-shadow: -14px -14px 14px rgba(16, 27, 209, 1);
 }
@@ -21,11 +21,11 @@ box-shadow: -14px -14px 14px rgba(16, 27, 209, 1);
 }
 
 .hoby {
-    box-shadow: 4px 4px 14px;
+    box-shadow: -15px -13px 14px 7px rgb(233, 11, 11);
     border-radius: 20%;
 }
 
 .note {
-    font-style: oblique;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: medium;
+   
 }
